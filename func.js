@@ -1,3 +1,11 @@
+/*
+created by zakaria lfatmi
+facebook : http://www.facebook.com/zakaria.lfatmi
+email : zakarialfatmi@gmail.com
+http://www.zikohost.com
+
+*/
+
 $(document).ready(function(){
 
   $('form').submit(function(){
