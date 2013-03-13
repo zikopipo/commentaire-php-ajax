@@ -7,8 +7,10 @@ commenter sans rafraichir la page
 1 - modifier les informations de la connexion avec la base de donnée sur index.php :
 $connect = mysql_connect('localhost','root','') or die(mysql_error());
 mysql_select_db('php') or die(mysql_error());
-
 $query = mysql_query("SELECT * FROM livredor ORDER BY id DESC"); 
+
+pour le code html sur index.php :
+<div id="loader"><img src="entrer le lien d'une image loader"></div>
 
 2 - modifier les informations de la connexion avec la base de donnée sur post.php :
 
