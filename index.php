@@ -14,8 +14,7 @@
 <body>
 		<div id="feedback"></div>
 	<?php
-$connect = mysql_connect('localhost','root','') or die('error connecter');
-mysql_select_db('php') or die('error select');
+include('bdd.php');
 
 $query = mysql_query("SELECT * FROM livredor ORDER BY id DESC");
 
