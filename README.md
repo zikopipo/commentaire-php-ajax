@@ -4,6 +4,14 @@ commentaire-php-ajax
 commenter sans rafraichir la page 
 
 
+created by zakaria lfatmi
+facebook : http://www.facebook.com/zakaria.lfatmi
+email : zakarialfatmi@gmail.com
+http://www.zikohost.com
+
+
+
+
  - Modifier les informations de la connexion avec la base de donnée sur bdd.php ;
 
  - Pour le code html , sur index.php :
