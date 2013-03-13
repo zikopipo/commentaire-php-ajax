@@ -26,7 +26,7 @@ http://www.zikohost.com
 	<?php
 include('bdd.php');
 
-$query = mysql_query("SELECT * FROM livredor ORDER BY id DESC");
+$query = mysql_query("SELECT * FROM $database ORDER BY id DESC");
 
 while($rows = mysql_fetch_assoc($query))
 {
